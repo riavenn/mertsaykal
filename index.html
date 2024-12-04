@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+      .container {
+        background-color: #333;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+      }
+      .container li {
+        list-style-type: none;
+        display: flex;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 15px;
+        align-self: center;
+        padding: 15px;
+      }
+
+      .navigation a {
+        display: block;
+        padding: 10px;
+      }
+
+      .navigation {
+        display: flex;
+      }
+
+      .navigation a:hover {
+        background-color: rgba(255, 200, 80, 0.5);
+      }
+
+      .background {
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+        align-items: center;
+        background: url("wp6350571.jpg");
+        opacity: 0.7;
+        height: 85vh;
+        background-position: center;
+        background-size: cover;
+      }
+
+      .caption .border:hover {
+        background-color: rgba(255, 200, 80, 0.5);
+      }
+
+      .caption .border {
+        background-color: #000000;
+        color: white;
+        padding: 20px;
+        font-size: 35px;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+      }
+
+      .footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 7px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .footer li {
+        list-style-type: none;
+        display: flex;
+      }
+
+      .footer a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+      }
+
+      .footer p {
+        font-size: 15px;
+      }
+
+      .footer a,
+      p {
+        padding: 13px;
+      }
+
+      .footer-links a:hover {
+        background-color: rgba(255, 200, 80, 0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="container">
+      <a href="">MS</a>
+      <ul class="navigation">
+        <li><a href="">Anasayfa</a></li>
+        <li><a href="">Hakkımda</a></li>
+        <li><a href="">Projeler</a></li>
+        <li><a href="">İletişim</a></li>
+      </ul>
+    </nav>
+
+    <div class="background">
+      <div class="caption">
+        <span class="border">MERT SAYKAL</span>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>© 2024 Tüm Hakları Saklıdır</p>
+      <div class="footer-links">
+        <ul id="social-links">
+          <li>
+            <a
+              href="https://www.instagram.com/mertsaykal_/"
+              class="fab fa-instagram"
+              target="_blank"
+            ></a>
+            <a
+              href="mailto:mertsaykal0@gmail.com"
+              target="_blank"
+              class="fa-solid fa-envelope"
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/mert-saykal/"
+              class="fa-brands fa-linkedin-in"
+              target="_blank"
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
